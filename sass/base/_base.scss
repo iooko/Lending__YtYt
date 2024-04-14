@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+body {
+    @include font(1.6rem, 2.3rem);
+}
+h1 {
+    @include font(4.6rem, 4.6rem);
+    @extend %font-primary;
+}
+h2 {
+    @include font(4.6rem, 4.6rem);
+    @extend %font-primary;
+}
+h3 {
+    @include font(3.2rem, 3rem);
+    @extend %font-primary;
+}
+h4 {
+    @include font(2.4rem, 3rem);
+    @extend %font-primary;
+}
+p {
+    @include font(1.6rem, 2.3rem);
+    @extend %font-primary;
+}
