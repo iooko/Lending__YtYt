@@ -1,4 +1,4 @@
-p, h4, h3, h2, h1 {
+body {
   font-family: "Gilroy", Verdana, sans-serif;
 }
 
@@ -58,6 +58,66 @@ p {
   font-style: normal;
   font-weight: normal;
   color: #22253B;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  background-image: url(../../img/logotype/logo.svg);
+  width: 53px;
+  height: 19px;
+}
+
+.navigation {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  border-radius: 75px;
+  border-style: none;
+  width: 78px;
+  height: 31px;
+  background-color: #38BFF2;
+  color: #fff;
+}
+
+.icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon-arrow {
+  width: 9px;
+  height: 8px;
+  background-image: url(../../img/icons/arrow-right.svg);
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header__navigation {
+  max-width: 1160px;
+  height: 85px;
+  border-radius: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header {
+  background-color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */
