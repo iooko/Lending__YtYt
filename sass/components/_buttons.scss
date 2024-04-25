@@ -1,8 +1,22 @@
 .button {
     border-radius: 75px;
     border-style: none;
-    width: 78px;
-    height: 31px;
     background-color: $color-second;
     color: $color-light;
+    cursor: pointer;
+}
+.button_colored {
+    background-color: $color-second;
+    width: 78px;
+    height: 31px;
+    margin-right: 14px;
+}
+.button_primary {
+    background-color: $color-main;
+    height: 70px;
+}
+.header__button {
+    width: 321px;
+    @include font(2rem, 100%, normal, normal, $color-light);
+    @extend %font-primary;
 }

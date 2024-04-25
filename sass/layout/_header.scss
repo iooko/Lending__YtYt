@@ -1,13 +1,33 @@
+.header {
+    background-image: url(../../img/background_img/01.png);
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 11px;
+}
 .header__navigation {
-    max-width: 1160px;
-    height: 85px;
-    border-radius: 80px;
+    max-width: 1153px;
+    height: 51px;
+    border-radius: 75px;
     background-color: $color-light;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 }
-.header {
-    background-color: pink;
+
+.header__column {
+    margin: 60px 120px
+}
+.header__title {
+    span {
+        color: $color-main;
+    }
+    i {
+        @include font(4.6rem, 4.6rem, italic, 600)
+    }
+}
+.header__text {
+    width: 365px;
+}
+.header__img {
+    margin: 0 auto;
 }

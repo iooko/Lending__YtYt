@@ -2,8 +2,24 @@
     display: inline-block;
     cursor: pointer;
 }
+.line {
+    display: inline-block;
+    width: 365px;
+    height: 1px;
+    background-color: $color-additional;
+}
 .icon-arrow {
     width: 9px;
     height: 8px;
     background-image: url(../../img/icons/arrow-right.svg);
+}
+.img_computer {
+    width: 390px;
+    height: 408px;
+    padding-left: 230px;
+}
+.icon-arrow-up {
+    background-image: url(../../img/icons/arrow-up.svg);
+    height: 15px;
+    width: 15px;
 }

@@ -1,5 +1,8 @@
 .navigation {
-    width: 700px;
+    width: 910px;
     display: flex;
     justify-content: space-around;
+    li {
+        @include font(1.3rem, 100%)
+    }
 }
