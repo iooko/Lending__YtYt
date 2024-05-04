@@ -5,6 +5,9 @@
     color: $color-light;
     cursor: pointer;
 }
+.button__text {
+    
+}
 .button_colored {
     background-color: $color-second;
     width: 78px;
@@ -19,4 +22,5 @@
     width: 321px;
     @include font(2rem, 100%, normal, normal, $color-light);
     @extend %font-primary;
+    margin-top: 20px;
 }

@@ -1,0 +1,43 @@
+.block {
+    border-radius: 48px;
+    background-color: $color-primary;
+}
+.item {
+    display: inline-block;
+    border-radius: 44px;
+    height: 45px;
+    margin-right: 6px;
+    margin-bottom: 11px;
+    line-height: 45px;
+    text-align: center;
+    color: $color-light
+}
+.item_blue {
+    width: 311px;
+    background-color: $color-blue;
+}
+.item_yellow {
+    width: 89px;
+    background-color: $color-yellow;
+}
+.item_red {
+    width: 151px;
+    background-color: $color-orange;
+}
+.item_green {
+    width: 277px;
+    background-color: $color-green;
+}
+.item_lightBlue {
+    width: 258px;
+    background-color: $color-blueLight;
+}
+.item_darkBlue {
+    width: 95px;
+    background-color: $color-blueDark;
+}
+.item_purple {
+    width: 93px;
+    background-color: $color-purple;
+    margin-right: 0;
+}

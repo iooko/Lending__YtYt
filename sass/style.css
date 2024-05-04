@@ -34,6 +34,7 @@ h2 {
   font-style: normal;
   font-weight: 600;
   color: #22253B;
+  text-align: center;
 }
 
 h3 {
@@ -69,26 +70,6 @@ li {
   color: #22253B;
 }
 
-.logo {
-  background-image: url(../../img/logotype/logo.svg);
-  width: 53px;
-  height: 19px;
-  margin-left: 8px;
-}
-
-.navigation {
-  width: 910px;
-  display: flex;
-  justify-content: space-around;
-}
-.navigation li {
-  font-size: 1.3rem;
-  line-height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  color: #22253B;
-}
-
 .button {
   border-radius: 75px;
   border-style: none;
@@ -116,6 +97,7 @@ li {
   font-style: normal;
   font-weight: normal;
   color: #fff;
+  margin-top: 20px;
 }
 
 .icon {
@@ -128,6 +110,7 @@ li {
   width: 365px;
   height: 1px;
   background-color: #DEDEDE;
+  margin-top: 31px;
 }
 
 .icon-arrow {
@@ -139,27 +122,82 @@ li {
 .img_computer {
   width: 390px;
   height: 408px;
-  padding-left: 230px;
+  padding-left: 120px;
+  padding-top: 2px;
 }
 
 .icon-arrow-up {
   background-image: url(../../img/icons/arrow-up.svg);
   height: 15px;
   width: 15px;
+  background-repeat: no-repeat;
+  padding-left: 7px;
 }
 
-.wrapper {
-  max-width: 1400px;
-}
-.wrapper > * {
-  margin: 0 auto;
+.img__employer {
+  width: 407px;
+  height: 352px;
+  margin-left: 122px;
+  margin-top: 42px;
 }
 
-.header {
-  background-image: url(../../img/background_img/01.png);
-  margin: 0 auto;
-  width: 1400px;
-  padding-top: 11px;
+.logo {
+  background-image: url(../../img/logotype/logo.svg);
+  width: 53px;
+  height: 19px;
+  margin-left: 8px;
+}
+
+.block {
+  border-radius: 48px;
+  background-color: #EAF2F5;
+}
+
+.item {
+  display: inline-block;
+  border-radius: 44px;
+  height: 45px;
+  margin-right: 6px;
+  margin-bottom: 11px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+.item_blue {
+  width: 311px;
+  background-color: #5096FF;
+}
+
+.item_yellow {
+  width: 89px;
+  background-color: #FFB359;
+}
+
+.item_red {
+  width: 151px;
+  background-color: #FF6F50;
+}
+
+.item_green {
+  width: 277px;
+  background-color: #4BD071;
+}
+
+.item_lightBlue {
+  width: 258px;
+  background-color: #50C0FF;
+}
+
+.item_darkBlue {
+  width: 95px;
+  background-color: #4B77B9;
+}
+
+.item_purple {
+  width: 93px;
+  background-color: #AF93FF;
+  margin-right: 0;
 }
 
 .header__navigation {
@@ -170,10 +208,101 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+}
+
+.navigation {
+  width: 910px;
+  display: flex;
+  justify-content: space-around;
+}
+.navigation li {
+  font-size: 1.3rem;
+  line-height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  color: #22253B;
+}
+
+.technology {
+  margin-top: 157.7px;
+}
+
+.technology__block {
+  width: 1160px;
+  height: 396px;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+
+.items {
+  width: 467px;
+  margin-top: 78px;
+  margin-left: 9px;
+}
+
+.technology__text {
+  width: 386px;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #22253B;
+  margin-left: 10px;
+  margin-top: 13px;
+}
+
+.education {
+  margin-top: 83px;
+}
+
+.education__title {
+  width: 598px;
+  margin: 0 auto;
+}
+
+.education__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1160px;
+  margin: 0 auto;
+  margin-top: 35px;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block__text {
+  width: 270px;
+  height: 254px;
+  border-radius: 30px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.header__background {
+  background-image: url(../../img/background_img/01.png);
+  padding-top: 11px;
+  background-position-x: 190px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 1400px;
 }
 
 .header__column {
-  margin: 60px 120px;
+  margin: 60px 0 0 120px;
+}
+
+.header__content {
+  padding-top: 11px;
 }
 
 .header__title span {
@@ -189,10 +318,7 @@ li {
 
 .header__text {
   width: 365px;
-}
-
-.header__img {
-  margin: 0 auto;
+  padding-top: 7px;
 }
 
 .layout-2-column {
@@ -201,7 +327,7 @@ li {
   justify-content: space-between;
 }
 .layout-2-column > * {
-  flex-basis: 45%;
+  flex-basis: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

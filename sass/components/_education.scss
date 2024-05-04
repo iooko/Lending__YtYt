@@ -1,0 +1,23 @@
+.education {
+    margin-top: 83px;
+}
+.education__title {
+    width: 598px;
+    margin: 0 auto;
+}
+.education__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 35px;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block__text {
+    width: 270px;
+    height: 254px;
+    border-radius: 30px;
+}

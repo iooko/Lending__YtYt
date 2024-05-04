@@ -7,6 +7,7 @@
     width: 365px;
     height: 1px;
     background-color: $color-additional;
+    margin-top: 31px;
 }
 .icon-arrow {
     width: 9px;
@@ -16,10 +17,19 @@
 .img_computer {
     width: 390px;
     height: 408px;
-    padding-left: 230px;
+    padding-left: 120px;
+    padding-top: 2px;
 }
 .icon-arrow-up {
     background-image: url(../../img/icons/arrow-up.svg);
     height: 15px;
     width: 15px;
+    background-repeat: no-repeat;
+    padding-left: 7px;
+}
+.img__employer {
+    width: 407px;
+    height: 352px;
+    margin-left: 122px;
+    margin-top: 42px;
 }

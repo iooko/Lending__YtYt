@@ -1,0 +1,23 @@
+.technology {
+    margin-top: 157.7px
+}
+.technology__title {
+    //text-align: center;
+}
+.technology__block {
+    width: 1160px;
+    height: 396px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.items {
+    width: 467px;
+    margin-top: 78px;
+    margin-left: 9px;
+}
+.technology__text {
+    width: 386px;
+    @include font(2rem, 2.5rem, normal, 500);
+    margin-left: 10px;
+    margin-top: 13px;
+}

@@ -1,21 +1,22 @@
 .header {
-    background-image: url(../../img/background_img/01.png);
+    //background-image: url(../../img/background_img/01.png);
     margin: 0 auto;
     width: 1400px;
+    //padding-top: 11px;
+}
+.header__background {
+    background-image: url(../../img/background_img/01.png);
     padding-top: 11px;
+    background-position-x: 190px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1400px;
 }
-.header__navigation {
-    max-width: 1153px;
-    height: 51px;
-    border-radius: 75px;
-    background-color: $color-light;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .header__column {
-    margin: 60px 120px
+    margin: 60px 0 0 120px;
+}
+.header__content {
+    padding-top: 11px;
 }
 .header__title {
     span {
@@ -27,7 +28,5 @@
 }
 .header__text {
     width: 365px;
-}
-.header__img {
-    margin: 0 auto;
+    padding-top: 7px;
 }

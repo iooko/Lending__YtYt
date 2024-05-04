@@ -1,3 +1,13 @@
+.header__navigation {
+    max-width: 1153px;
+    height: 51px;
+    border-radius: 75px;
+    background-color: $color-light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
 .navigation {
     width: 910px;
     display: flex;

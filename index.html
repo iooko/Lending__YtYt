@@ -10,6 +10,7 @@
 <body>
     <header class="header">
         <div class="wrapper">
+            <div class="header__background">
                 <div class="header__navigation">
                     <span class="logo"></span>
                     <ul class="navigation">
@@ -34,50 +35,57 @@
                         Войти
                     </button>
                 </div>
-            <div class="layout-2-column header__column">
-                <div class="header__content">
-                    <div class="header__title">
-                        <h1>
-                            Школа <span>{</span><i>программирования</i><span>}</span><br> для тех, кому нужны реальные навыки, <br>а не просто сертификат
-                        </h1>
+                <div class="layout-2-column header__column">
+                    <div class="header__content">
+                        <div class="header__title">
+                            <h1>
+                                Школа <span>{</span><i>программирования</i><span>}</span><br> для тех, кому нужны реальные навыки, <br>а не просто сертификат
+                            </h1>
+                        </div>
+                        <span class="line"></span>
+                        <p class="header__text">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</p>
+                        <button class="button button_primary header__button">
+                            <span class="button__text">
+                                Пройти тестирование
+                            </span>
+                            <span class="icon icon-arrow-up"></span>
+                        </button>
                     </div>
-                    <span class="line"></span>
-                    <p class="header__text">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</p>
-                    <button class="button button_primary header__button">
-                        Пройти тестирование
-                        <span class="icon icon-arrow-up"></span>
-                    </button>
+                    <div class="header__img">
+                        <img src="./img/main/02.png" alt="image" class="img_computer">
+                    </div>
+                    <!--ADD ARROW-DOWN-->
                 </div>
-                <div class="header__img">
-                    <img src="./img/main/02.png" alt="image" class="img_computer">
-                </div>
-                <!--ADD ARROW-DOWN-->
             </div>
         </div>
     </header>
     <section class="technology">
         <div class="wrapper">
-            <h2>Какие технологии вы изучите:</h2>
+            <h2 class="technology__title">Какие технологии вы изучите:</h2>
             <div class="technology__block block">
-                <img src="./img/main/img1.png" alt="img">
-                <div class="technology__block__text">
-                    <div class="items">
-                        <span class="item">Язык программирования Python</span>
-                        <span class="item">Сети</span>
-                        <span class="item">Базы данных</span>
-                        <span class="item">Фреймворки Flask и Django</span>
-                        <span class="item">Отладка и тестирование</span>
-                        <span class="item">Docker</span>
-                        <span class="item">Git</span>
+                <div class="layout-2-column">
+                    <div class="technology__img">
+                        <img src="./img/main/01.png" alt="img" class="img__employer">
                     </div>
-                    <p>Это необходимый минимум для современного backend-разработчика</p>
+                    <div class="technology__block__text">
+                        <div class="items">
+                            <span class="item item_blue">Язык программирования Python</span>
+                            <span class="item item_yellow">Сети</span>
+                            <span class="item item_red">Базы данных</span>
+                            <span class="item item_green">Фреймворки Flask и Django</span>
+                            <span class="item item_lightBlue">Отладка и тестирование</span>
+                            <span class="item item_darkBlue">Docker</span>
+                            <span class="item item_purple">Git</span>
+                        </div>
+                        <p class="technology__text">Это необходимый минимум для современного backend-разработчика</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="education">
         <div class="wrapper">
-            <h2>Обучение в YtYt – это удобно и результативно</h2>
+            <h2 class="education__title">Обучение в YtYt – это удобно и результативно</h2>
             <div class="education__blocks">
                 <div class="block block__text">
                     <span class="icon"></span>
