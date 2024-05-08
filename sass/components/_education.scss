@@ -11,13 +11,19 @@
     width: 1160px;
     margin: 0 auto;
     margin-top: 35px;
-    gap: 10px;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 26px;
 }
-
 .block__text {
-    width: 270px;
-    height: 254px;
-    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    padding-top: 50px;
+    >h4 {
+        padding-top: 15px;
+    }
+    >p {
+        @include font(1.3rem, 1.5rem);
+        padding-top: 8px;
+    }
 }

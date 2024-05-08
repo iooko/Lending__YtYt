@@ -46,8 +46,8 @@ h3 {
 }
 
 h4 {
-  font-size: 2.4rem;
-  line-height: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
   font-style: normal;
   font-weight: normal;
   color: #22253B;
@@ -141,6 +141,48 @@ li {
   margin-top: 42px;
 }
 
+.icon-practice {
+  background-image: url(../../img/education/icon1.svg);
+  width: 58px;
+  height: 58px;
+}
+
+.icon-methods {
+  background-image: url(../../img/education/icon2.svg);
+  width: 59px;
+  height: 59px;
+}
+
+.icon-comuter {
+  background-image: url(../../img/education/icon3.svg);
+  width: 69px;
+  height: 60px;
+}
+
+.icon-calendar {
+  background-image: url(../../img/education/icon4.svg);
+  width: 71px;
+  height: 71px;
+}
+
+.icon-message {
+  background-image: url(../../img/education/icon5.svg);
+  width: 62px;
+  height: 57px;
+}
+
+.icon-rub {
+  background-image: url(../../img/education/icon6.svg);
+  width: 59px;
+  height: 59px;
+}
+
+.icon-card {
+  background-image: url(../../img/education/icon7.svg);
+  width: 60px;
+  height: 60px;
+}
+
 .logo {
   background-image: url(../../img/logotype/logo.svg);
   width: 53px;
@@ -149,8 +191,10 @@ li {
 }
 
 .block {
-  border-radius: 48px;
+  border-radius: 30px;
   background-color: #EAF2F5;
+  width: 270px;
+  height: 254px;
 }
 
 .item {
@@ -267,15 +311,26 @@ li {
   width: 1160px;
   margin: 0 auto;
   margin-top: 35px;
-  gap: 10px;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  gap: 26px;
 }
 
 .block__text {
-  width: 270px;
-  height: 254px;
-  border-radius: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  padding-top: 50px;
+}
+.block__text > h4 {
+  padding-top: 15px;
+}
+.block__text > p {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  color: #22253B;
+  padding-top: 8px;
 }
 
 .wrapper {
